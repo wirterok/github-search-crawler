@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "github-search-crawler"
+version = "0.1.0"
+description = ""
+authors = ["wirter <wirterok@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.32.3"
+beautifulsoup4 = "^4.12.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
